@@ -6,9 +6,9 @@
 
 ## التشغيل
 1. Python 3.11+
-2. انسخ `.env.example` إلى `.env` وضع مفتاح مزود AI المتوافق مع OpenAI.
-3. `pip install -r requirements.txt`
-4. `uvicorn app.main:app --reload`
-5. افتح http://127.0.0.1:8000
+2. انسخ `env.sample` إلى `.env` وضع مفتاح مزود AI المتوافق مع OpenAI.
+3. ثبّت الحزم: `pip install -r requirements.txt`
+4. شغّل: `uvicorn app.main:app --reload`
+5. افتح `http://127.0.0.1:8000`
 
 لا ترفع مفاتيح API أو ملف `.env` إلى GitHub.

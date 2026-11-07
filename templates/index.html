@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#101827"><title>AHMED AI</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="shell">
+<header class="top"><div class="mark">A<span>AI</span></div><div><p class="eyebrow">PERSONAL WRITING ASSISTANT</p><h1>AHMED <span>AI</span></h1></div><div class="status"><i></i> مساعدك جاهز</div></header>
+<section class="hero"><p class="eyebrow">أهلاً بيك 👋</p><h2>قولّي عايز تكتب إيه؟</h2><p>منشورات وردود وتعليقات بالمصري — راجع النص قبل ما تنشره.</p></section>
+<section class="panel"><form id="writer"><label>نوع المحتوى</label><div class="types"><label class="type"><input type="radio" name="kind" value="post" checked><span>✍️ منشور</span></label><label class="type"><input type="radio" name="kind" value="comment"><span>💬 تعليق</span></label><label class="type"><input type="radio" name="kind" value="reply"><span>↩️ رد</span></label></div><label for="context">اكتب الفكرة أو الكلام اللي هترد عليه</label><textarea id="context" name="context" rows="5" placeholder="مثلاً: عايز أنزل بوست عن بداية مشروع جديد..." required></textarea><button id="submit" type="submit">✨ اكتبلي</button></form><p id="error" class="error" role="alert"></p></section>
+<section id="result" class="panel" hidden><div class="result-head"><h3>المسودة المقترحة</h3><span>راجعها قبل النشر</span></div><textarea id="output" rows="6" aria-label="النص المقترح"></textarea><button id="copy" class="secondary" type="button">نسخ النص</button></section>
+<section class="history"><div class="result-head"><h3>آخر المسودات</h3><button id="refresh" class="ghost" type="button">تحديث</button></div><div id="drafts"><p class="muted">لسه مفيش مسودات محفوظة.</p></div></section><footer>AHMED AI · نسخة تجريبية آمنة — لا تتصل بفيسبوك ولا تطلب كلمة المرور.</footer>
+</main><script src="/static/app.js"></script></body></html>
